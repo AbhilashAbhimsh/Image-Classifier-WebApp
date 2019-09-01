@@ -12,3 +12,5 @@ async function app() {
   const result = await net.classify(imgEl);
   console.log(result);
 }
+
+app();
